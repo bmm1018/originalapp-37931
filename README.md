@@ -1,24 +1,56 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# アプリケーション名
+商品発注システム
 
-Things you may want to cover:
+# アプリケーション概要
+商品の発注業務をユーザーごとで管理するシステム
 
-* Ruby version
+# URL
 
-* System dependencies
+# テスト用アカウント
 
-* Configuration
+# 利用方法
+## 商品購入
+１トップページからユーザーの新規登録を行う
+２商品一覧で目的の商品を選ぶ
+３詳細画面から数量を選択してカートに入れるボタンを押す
+４カートに入れた商品画面に移動し選択した商品を購入することができる
+## マイページ詳細
+マイページには過去に購入した商品が履歴で表示されるようになっている
+商品一覧からお気に入り登録した商品を表示することができる
 
-* Database creation
+# アプリケーションを作成した背景
+前職でプログラミングを用いて業務改善を考えたところ、発注業務が得意先からメールやFAX等形態が様々であったため統一することで業務改善につながり、SDGsへの貢献にもつながると考えたため。
 
-* Database initialization
+# 洗い出した要件
+https://docs.google.com/spreadsheets/d/16xsM-mxt4UIAgJiKDTO6Gr86bpVhhEznK1g1yUP7Fdk/edit?usp=sharing
 
-* How to run the test suite
+# 実装した機能についての画像やGIFおよびその説明
 
-* Services (job queues, cache servers, search engines, etc.)
+# 実装予定の機能
+・新規登録機能
+・ログイン機能
+・マイページ機能
+・商品一覧機能
+・商品詳細機能
+・お気に入り機能
+・商品購入機能
 
-* Deployment instructions
+# データベース設計
+[![Image from Gyazo](https://i.gyazo.com/a29d00056ec8d7c2325ee2506ffbfd4c.png)](https://gyazo.com/a29d00056ec8d7c2325ee2506ffbfd4c)
 
-* ...
+# 画面遷移図
+[![Image from Gyazo](https://i.gyazo.com/39cb3e574f8ba93a967cff2d4592affa.png)](https://gyazo.com/39cb3e574f8ba93a967cff2d4592affa)
+
+# 開発環境
+・フロントエンド
+・バックエンド
+・インフラ
+・テスト
+・テキストエディタ
+・タスク管理
+
+# ローカルでの動作方法
+
+# 工夫したポイント
